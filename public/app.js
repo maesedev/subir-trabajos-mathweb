@@ -9,7 +9,7 @@ document.getElementById('uploadForm').addEventListener('submit', async (e) => {
     formData.append('username', username);
 
     try {
-        const response = await fetch( window.location.href + '/API/V1/getFiles', {
+        const response = await fetch( window.location.origin + '/API/V1/getFiles', {
             method: 'POST',
             body: formData,
         });
