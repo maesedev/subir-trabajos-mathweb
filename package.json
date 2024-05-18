@@ -1,0 +1,16 @@
+{
+  "name": "mathwebworksupload",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "maesedev",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "adm-zip": "^0.5.12",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}
